@@ -1,0 +1,94 @@
+:root{
+  --color-primary: #008C44;
+  --color-white: #F3FCF4;
+  --color-button: #23E479;
+  --color-dark: #0A3D2A;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 6rem;
+  max-width: 100vh;
+  padding: 4rem 10rem;
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 10rem;
+  gap: 3rem;
+  text-decoration: none;
+}
+
+.navbar a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.navbar a:hover {
+  color: var(--color-dark);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* INTRO */
+#intro{
+  display: flex;
+  align-items: center;
+  background-color: rgba(3, 107, 67);
+}
+
+#intro img{
+  display: flex;
+  position: relative;
+  /* width: 100%; */
+  height: 60vh;
+  filter: opacity(.2) blur(3px);
+}
+
+.intro-content{
+  position: absolute;
+  padding: 0 10rem;
+  width: 50%;
+}
+
+.hashtag{
+  color: var(--color-button);
+  font-size: 1.2rem;
+}
+
+.title{
+  font-size: 3rem;
+  color: var(--color-white);
+  margin-top: 1.5rem;
+}
+
+.intro-btn{
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  background: var(--color-button);
+  padding: 1rem 3.3rem;
+  border-radius: .6rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-dark);
+}
+
+.intro-btn:hover{
+  background-color: var(--color-dark);
+  color: var(--color-button);
+}

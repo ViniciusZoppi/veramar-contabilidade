@@ -20,7 +20,7 @@ header{
 
 nav{
     margin: 4em;
-    /* position: absolute; */
+    position: absolute;
 }
 
 nav ul{
