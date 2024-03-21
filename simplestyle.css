@@ -1,0 +1,42 @@
+:root {
+  --color-primary: #008c44;
+  --color-white: #f3fcf4;
+  --color-button: #23e479;
+  --color-dark: #0a3d2a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 8rem;
+  max-width: 100vh;
+  padding: 4rem 10rem;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 10rem;
+  gap: 5rem;
+  text-decoration: none;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.navbar a:hover {
+  font-weight: 800;
+}
